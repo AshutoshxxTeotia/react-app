@@ -12,7 +12,7 @@ function Card(props) {
           <button className={styles.topBtn1}>Save <Bookmark size={8}/></button>
         </div>
         <div className={styles.center}>
-          <h3 className={styles.centerH3}>Amazon <span className={styles.centerH3Span}>5 days ago</span></h3>
+          <h3 className={styles.centerH3}>{props.companyName} <span className={styles.centerH3Span}>5 days ago</span></h3>
           <h2 className={styles.centerH2}>{props.designation}</h2>
           <div className={styles.centerDiv}>
             <h4 className={styles.centerH4}>Part-time</h4>
