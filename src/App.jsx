@@ -29,8 +29,14 @@ function App() {
     {jobOpenings.map((elem, idx)=>{
       return <div key={idx}>
               <Card companyName = {elem.companyName} designation = {elem.designation} logo = {elem.logo}></Card>
+      
+      //tailwind test changes
+      <div>
+        <h1 className='bg-red-600'>tailwindcss</h1>
       </div>
+    </div>  
     })}
+    
     </div>  
   )
 }
